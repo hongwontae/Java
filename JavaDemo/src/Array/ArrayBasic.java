@@ -8,7 +8,7 @@ public class ArrayBasic {
 
         String[] Hwt = { "HWT", "JERRAD", "LUCAS", "NEYMAR", "DIAZ", "SUAREZ" };
         int newLength = 10;
-
+        
         System.out.println(Hwt[1]); // 인덱스로 배열에 접근하는 방법
         System.out.println(Hwt[4]); // 인덱스로 배열에 접근하는 방법
         Arrays.sort(Hwt);
