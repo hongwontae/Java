@@ -53,7 +53,57 @@ public class ArrayBasic {
 
         int [] s1 = Arrays.copyOf(array, newLength);
         System.out.println(Arrays.toString(s1));
+
+        // 2023-07-10 Udemy Array
+        System.out.println();
+        System.out.println("---------------------------------for 문 연습");
+        int [] i1 = {10,20,30,40,50,60,70,80,90,100};
+
+         int sum=0;
+
+        for(int iDemo: i1){
+            sum=sum+iDemo;
+        }
+
+        System.out.println(sum);
+
+        int [] i2 = {1,2,3,4,5,6,7,8,9,10};
+
+        int sum1=0;
+
+        for(int i2Demo:i2){
+            System.out.print((sum1=sum1+i2Demo)+" d ");
+        }
+
+        System.out.println();
+
+        int dnjs1 [] = {11,22,33,44,55,66,77,88,99,100};
+        for(int i=0; i<dnjs1.length;i++){
+            System.out.println(dnjs1[i]+"  정석적인 배열 for문");
+        }
+
+
+
         
+
+        System.out.println("for문 연습------------------------------------------------");
+
+        System.out.println();
+
+        int [] i3 = new int[10]; // 정석적인 방법이다. 배열의 값을 정하지 않으면 타입의 초기값으로 지정된다.
+        System.out.println(Arrays.toString(i3)); // 초기값은 0 더블은 0.0
+        System.out.println(i3.length); // 인덱스는 0~9
+
+
+        // 객체로 배열을 만든 후 초기값은 null 발생
+        Person [] dnjs3 = new Person[10];
+        System.out.println(Arrays.toString(dnjs3));
+
+
+
+    }
+
+    class Person{
 
     }
 
