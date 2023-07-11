@@ -11,14 +11,14 @@ public class ArrayBasic {
         
         System.out.println(Hwt[1]); // 인덱스로 배열에 접근하는 방법
         System.out.println(Hwt[4]); // 인덱스로 배열에 접근하는 방법
-        Arrays.sort(Hwt);
-        System.out.println(Arrays.toString(Hwt));
+        Arrays.sort(Hwt); // 배열을 정렬하는 방법
+        System.out.println(Arrays.toString(Hwt)); // 배열 콘텐츠 전부를 표현하는 방법
         System.out.println("--------------------------------------------------------------");
 
         int[] array = { 1, 0, 4, 5, 7, 2, 8, 6, 9, 3 };
         System.out.println("-----Arrays.toString()-----");
-        System.out.println(array);
-        System.out.println(Arrays.toString(array));
+        System.out.println(array); // 주소값 출력 
+        System.out.println(Arrays.toString(array)); // 배열 Contents 출력
         System.out.println();
 
         // sort를 사용하면 오름차순 정렬이 된다.
