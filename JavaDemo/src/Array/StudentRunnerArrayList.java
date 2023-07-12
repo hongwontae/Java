@@ -21,6 +21,7 @@ public class StudentRunnerArrayList {
 
     BigDecimal number5 = student1.getAverage();
 
+
     public static void main(String[] args) {
 
         StudentRunnerArrayList s1 = new StudentRunnerArrayList();
@@ -32,6 +33,7 @@ public class StudentRunnerArrayList {
         System.out.println(s1.number5);
 
         System.out.println(s1.student);
+
 
 
     }

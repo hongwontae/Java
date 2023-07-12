@@ -52,4 +52,7 @@ public class StudentArrayList {
         return HWT+marks;
     }
 
+    public void addNewMark(int mark){
+        marks.add(mark);
+    }
 }
