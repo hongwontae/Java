@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public class StudentRunner {
 
-    // 생성자로 배열 객체를 줄 때는 new 타입 [] {n,n,n...}
+    // 매개변수로 배열 객체를 줄 때는 new 타입 [] {n,n,n...}
 
     Student student = new Student("HWT", 99,98,1000);
     Student student1 = new Student("HWT", 44,55,66);
