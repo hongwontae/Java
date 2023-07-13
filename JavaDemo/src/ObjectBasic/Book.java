@@ -19,4 +19,14 @@ public class Book {
     public void addReview(Review review){
         this.reviews.add(review);
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", author='" + author + '\'' +
+                ", reviews=" + reviews +
+                '}';
+    }
 }
