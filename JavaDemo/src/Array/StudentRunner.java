@@ -11,15 +11,15 @@ public class StudentRunner {
     Student student2 = new Student("HWT", 77,88,99,100);
 
 
-    int number1 = student1.getNumber();
+    int number1 = student2.getNumber(); // 길이는?
 
-    int number2 = student1.getTotal();
+    int number2 = student2.getTotal(); // 배열의 합
 
-    int number3 = student1.getMax();
+    int number3 = student2.getMax();
 
-    int number4 = student1.getMin();
+    int number4 = student2.getMin();
 
-    BigDecimal number5 = student1.getAverage();
+    BigDecimal number5 = student2.getAverage();
 
     public static void main(String[] args) {
 
