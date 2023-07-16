@@ -1,0 +1,22 @@
+Optional 클래스
+
+NPL를 방지하는 클래스
+Optional<T>는 null이 올 수 있는 값을 감싸는 Wrapper 클래스로, 참조하더라도 NPE가 발생하지 않도록 도와준다. Optional 클래스는 하나의 값을 이미 갖고 있다. (private final T value;)
+Optional은 스태틱 메서드로 Empty객체를 갖고 있어서 메모리 절약한다.
+
+ Optional은 Wrapper 클래스이기 때문에 빈 값이 올 수도 있으며, 빈 객체는 empty() 메서드로 생성할 수 있다. 
+
+=> null이 올 수 있는 데이터면 Optional로 감싸서 만든다. Null일 경우 예외처리가 아니라 orElse, orElseGet 메서드로 다른 값 리턴 가능 
+
+Optional 메서드
+=> Optional 객체를 가져와서 어떤 처리를 하고 다시 Optional 객체를 반환하는 메서드
+1. filter 
+필터의 인자로 받은 람다식이 참이면 Optional 객체를 바로 통과시키고 거짓이면 empty를 반환한다.
+
+2. map
+Optional 객체의 값에 어떤 수정을 가해서 다른 값으로 변경하는 메서드이다.
+
+Optional 메서드
+=>  값을 리턴해서 메서드 체인을 끝내는 메서드
+1. isPresent()
+Optional 객체의 값이 null인지 여부를 boolean 값으로 나타내줌
