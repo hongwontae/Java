@@ -5,8 +5,8 @@ import java.math.BigDecimal;
 public class EmployeeRunner {
     public static void main(String[] args) {
         
-        Employee em1 = new Employee("Hwt","Developer");
-        Employee em2 = new Employee("Hwt","Developer");
+        Employee em1 = new Employee("Hwt","Developer"); // sout 하지 않아도 생성자는 출력된다.
+        Employee em2 = new Employee("Hwt","Developer"); // 마찬가지
 
 
         em1.setEmail("feelchok1234@Gmail.com");
