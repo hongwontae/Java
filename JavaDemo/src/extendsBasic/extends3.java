@@ -4,6 +4,11 @@ public class extends3 extends extends1 {
 
     // 기존에는 복제를 사용해서 클래스를 확장했는데 extends를 사용하면 복제하지 않아도 가져올 수 있다
 
+    public extends3(String getName) {
+        super(getName);
+        this.college=college;
+    }
+    
     private String college;
     private int year;
 

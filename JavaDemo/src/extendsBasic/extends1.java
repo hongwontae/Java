@@ -1,19 +1,21 @@
 package extendsBasic;
 
-public class extends1 extends Object {
+public class extends1 {
 
     private String getName;
 
     private String email;
 
     private String phoneNumber;
+    
+
+    public extends1(String getName) {
+        System.out.println("extends1 Constructor");
+        this.getName = getName;
+    }
 
     public String getGetName() {
         return getName;
-    }
-
-    public void setGetName(String getName) {
-        this.getName = getName;
     }
 
     public String getEmail() {
