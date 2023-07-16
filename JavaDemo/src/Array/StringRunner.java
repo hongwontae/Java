@@ -23,7 +23,7 @@ public class StringRunner {
             if (day.length()>dayWithMostCharacters.length()) {
                 dayWithMostCharacters=day;
             }
-        }
+        } // for 문에 if가 있으면 하나만 출력된다.
     
         // 날짜를 역순으로 출력하는 로직
         for(int i=dayOfWeek.length-1; i>=0; i--){

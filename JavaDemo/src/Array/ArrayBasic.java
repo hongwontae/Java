@@ -63,7 +63,7 @@ public class ArrayBasic {
 
         for(int iDemo: i1){
             sum=sum+iDemo;
-        }
+        } //enhanced For
 
         System.out.println(sum);
 
@@ -92,7 +92,7 @@ public class ArrayBasic {
 
         int [] i3 = new int[10]; // 정석적인 방법이다. 배열의 값을 정하지 않으면 타입의 초기값으로 지정된다.
         System.out.println(Arrays.toString(i3)); // 초기값은 0 더블은 0.0
-        System.out.println(i3.length); // 인덱스는 0~9
+        System.out.println(i3.length); // 인덱스는 0~9, 길이는 10
 
 
         // 객체로 배열을 만든 후 초기값은 null 발생
