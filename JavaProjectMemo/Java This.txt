@@ -17,3 +17,30 @@ class EX1_Fruit {
 
 
 2. 생성자에서 다른 생성자를 호출할 경우 사용한다.
+매개 변수가 없는 생성자, 매개 변수가 있는 생성자 2개를 생성한 후 매개 변수가 없는 생성자에 this 키워드를 이용하여 값을 넣을 경우 매개 변수가 있는 생성자를 참조하여 메인 함수에서 생성자를 호출할 때 해당 값이 자동으로 대입된다.
+
+class EX2_Fruit {
+	public int fruitNo; // 과일 고유번호
+	public String fruitName; // 과일 이름
+	
+	public EX2_Fruit() {
+		this(1002, "오렌지");
+	}
+
+	public EX2_Fruit(int fruitNo, String fruitName) {
+		this.fruitNo = fruitNo;
+		this.fruitName = fruitName;
+	}
+	
+	public void showInfo() {
+		System.out.println("과일 고유번호 : " + fruitNo);
+		System.out.println("과일 이름 : " + fruitName);
+	}
+}
+
+3. 인스턴스 자신의 주소를 반환할 때 사용한다.
+
+this만 적어놓으면 클래스 자신의 주소를 반환한다.
+
+
+
