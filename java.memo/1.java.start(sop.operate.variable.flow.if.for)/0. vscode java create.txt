@@ -1,0 +1,29 @@
+1. ctrl + shift + p
+
+2. Java: Create Java Project 선택
+
+3. No build tools 또는 Maven, Gradle 선택 
+
+4. 생성 완료
+
+5. 파일 실행은 우측 상단 or 터미널에서 수동 실행
+
+
+6. .java 파일은 클래스 이름과 동일한 파일명으로 저장해야 한다
+=> public class의 이름과 .java의 파일명은 동일해야 합니다. (public class Hello === Hello.java(파일명))
+=> Java 컴파일러(javac)는 .java 파일을 컴파일할 때, public class를 기준으로 .class 파일을 생성합니다.
+
+
+7. VSCode는 자동으로 빌드 및 실행을 처리해줍니다.
+7-1. 코드 저장 시 자동으로 .java 파일을 컴파일함 (javac)
+7-2. 상단의 ▶ 버튼(또는 Ctrl+F5)을 누르면 컴파일 + 실행까지 자동 수행
+
+
+8. javac Test.java
+=> Java 소스코드 파일(.java) → 바이트코드 파일(.class)로 변환하는 명령어입니다.
+=> javac은 Java Compiler의 줄임말입니다.
+=> JVM이 직접 .java 파일을 실행할 수 없기 때문에, 먼저 .class 파일로 컴파일해야 합니다.
+
+9. java Test
+=> 컴파일된 .class 파일을 JVM(Java Virtual Machine)이 실행합니다.
+=> 여기서 .class 확장자는 생략합니다.
