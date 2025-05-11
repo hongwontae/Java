@@ -22,6 +22,8 @@
 5. java 데이터 타입
 5-1. 기본 타입 (8개)
 => byte, short, int, long, float, double, char, boolean
+=> char는 문자 1개만 저장하는 타입입니다. char는 작은 따옴표, string은 큰 따옴표를 사용합니다.
+=> char는 내부적으로 유니코드 정수값을 저장하기에 숫자처럼 연산이 가능합니다.
 
 5-2. 참조형
 => String, Array, Class, Object..
