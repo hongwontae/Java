@@ -1,6 +1,8 @@
 public class App {
+
     public static void main(String[] args) throws Exception {
-       mathWorking(10, 20);
+     Test test = new Test();
+        test.testFunction(5);
     }
 
     public static void mathWorking(int num){
